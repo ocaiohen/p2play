@@ -1,0 +1,25 @@
+:root{
+    --unique-blue: #1E5DDB;
+    --logo-lightblue: #5CC9FB;
+    --footer-darkgrey: #121212;
+}
+header{
+    width: 100%;
+    background-color: var(--unique-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-header{
+    width: 10%;
+}
+.links-header{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.redes-sociais{
+    width: 10%;
+}
