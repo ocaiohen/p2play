@@ -1,0 +1,55 @@
+#secao-apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../images/Conjunto\ Imagem\ Fundo.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 9em 0 9em;
+}
+#apresentacao{
+    color: white;
+    width: 50%;
+}
+#apresentacao>button{
+   background-color: var(--unique-blue);
+   color: white;
+   font-size: 2em;
+   border-radius: 15px;
+   padding: 20px 40px 20px 40px;
+   text-align: center;
+   border: none;
+   cursor: pointer;
+}
+#apresentacao>button:hover{
+    opacity: 0.85;
+}
+#apresentacao>button:active{
+    opacity: 0.75;
+}
+#secao-apresentacao>img{
+    width: 40%;
+}
+#secao-mockup{
+    height: 730px;
+    width: 100%;
+    background-image: url("../../images/Imagem\ mockups.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 4em;
+}
+#secao-carrossel{
+    width: 100vw;
+    height: 400px;
+    background-image: url("../../images/Fundo\ azul\ carrosel.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+footer{
+    margin-top: 4em;
+}
