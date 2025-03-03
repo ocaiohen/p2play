@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face{
+    font-family: 'EmotionEngine';
+    src: url('../fonts/EmotionEngine-8ynA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'EmotionEngine';
+    src: url('../fonts/EmotionEngineBold-YGnL.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 :root{
     --unique-blue: #1E5DDB;
     --logo-lightblue: #5CC9FB;
+    --body-darkgrey: #161616;
     --footer-darkgrey: #121212;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: var(--body-darkgrey);
 }
 header{
     width: 100%;
