@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href = "./styles/global.css">
+    <link rel="stylesheet" href="./styles/downloads/downloads.css">
     <title>Downloads</title>
 </head>
 <body>
@@ -30,46 +31,51 @@
             </ul>
         </nav>
     </header>
+    <img src="./images/Topo fundo azul main.png" alt="">
     <main>
+        
         <article>
             <h2>Downloads</h2>
             <p>Baixe a versão desejada do emulador. Caso tiver dúvidas sobre a instalação, temos tutoriais!</p>
 
-            <div>
-                <div>
-                    <h3>Windows</h3>
-                    <p>Funcional em uma grande variedade de hardwares. Compatibilidade para Windows 10 e 11.</p>
-                    <a href="">Com problemas?</a>
-
-                    <img src="" alt="">
+            <div id = "container-downloads">
+                <div id = "container-cards">
+                    <div class = "card-download">
+                        <h3>Windows</h3>
+                        <p>Funcional em uma grande variedade de hardwares. Compatibilidade para Windows 10 e 11.</p>
+                        <img src="./images/icons/Windows 11.png" alt="logo windows">
+    
+                        <a href="#">Com problemas?</a>
+                    </div>
+                    <div class = "card-download">
+                        <h3>Mac</h3>
+                        <p>Funcional em uma grande variedade de hardwares. Compatibilidade para os MacOS mais recentes.</p>
+                        <img src="./images/icons/Apple Logo.png" alt="logo mac">
+    
+                        <a href="#">Com problemas?</a>
+                    </div>
+                    <div class = "card-download">
+                        <h3>Linux</h3>
+                        <p>Funcional em uma grande variedade de hardwares. Compatibilidade para diversas distros.</p>
+                        <img src="./images/icons/Linux.png" alt="logo linux">
+    
+                        <a href="#">Com problemas?</a>
+                    </div>
+                    <div class = "card-download">
+                        <h3>Android</h3>
+                        <p>Funcional em uma grande variedade de hardwares, com certas restrições. Compatibilidade para as versões mais recentes.</p>
+                        <img src="./images/icons/Android OS.png" alt="logo android">
+    
+                        <a href="#">Com problemas?</a>
+                    </div>
                 </div>
-                <div>
-                    <h3>Mac</h3>
-                    <p>Funcional em uma grande variedade de hardwares. Compatibilidade para os MacOS mais recentes.</p>
-                    <a href="">Com problemas?</a>
-
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <h3>Linux</h3>
-                    <p>Funcional em uma grande variedade de hardwares. Compatibilidade para diversas distros.</p>
-                    <a href="">Com problemas?</a>
-
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <h3>Android</h3>
-                    <p>Funcional em uma grande variedade de hardwares, com certas restrições. Compatibilidade para as versões mais recentes.</p>
-                    <a href="">Com problemas?</a>
-
-                    <img src="" alt="">
-                </div>
-            </div>
-
-            <section>
-                <h3>Agora também em Android!</h3>
-                <!-- Imagem com mockup de um celular-->
-            </section>
+                
+                <section id = "section-imagem">
+                    <h3>Disponível também em Android!</h3>
+                    <a href="./compatibilidade.html">Consulte a compatibilidade do seu jogo</a>
+                    <img src="./images/Imagem mockup android.png" alt="imagem mockup android">
+                </section>
+            </div>       
         </article>
     </main>
 

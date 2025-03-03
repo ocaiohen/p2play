@@ -1,0 +1,97 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--unique-blue);
+}
+body>img{
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    width: 80%;
+}
+article>h2{
+    color: white;
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
+}
+article>p{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#container-downloads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+    margin-top: 2em;
+    /* align-items: stretch; */
+}
+#container-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+    width: 45%;
+}
+.card-download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--light-offwhite);
+    padding: 1em 1.5em;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card-download>h3{
+    width: 100%;
+}
+.card-download>p{
+    width: 65%;
+}
+.card-download>img{
+    width: 64px;
+}
+#section-imagem{
+    height: 100%;
+    position: relative;
+}
+#section-imagem>h3{
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'EmotionEngine', sans-serif;
+}
+#section-imagem>img{
+    height: 100%;
+}
+#section-imagem>a{
+    color: white;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+}
