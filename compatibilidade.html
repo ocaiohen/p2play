@@ -5,9 +5,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href = "./styles/global.css">
+    <link rel="stylesheet" href="./styles/compatibilidade/compatibilidade.css">
     <title>Compatibilidade</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <h1 class = "logo-header">
+                <a href="./index.html">
+                    <img src="./images/Logo P2Play.png" alt="logo">
+                </a>
+            </h1>
+            <ul class = "links-header">
+                <li><a href="./downloads.html">Downloads</a></li>
+                <li><a href="./compatibilidade.html">Compatibilidade</a></li>
+                <li><a href="./forum.html">Fórum</a></li>
+                <li><a href="./ajuda.html">Ajuda</a></li>
+                <li><a href="./duvidas.html">Dúvidas</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+            <ul class = "redes-sociais">
+                <li><a href="https://www.youtube.com/"><img src="./images/icons/YouTube.png" alt="logo youtube"></a></li>
+                <li><a href="https://github.com/"><img src="./images/icons/GitHub.png" alt="logo github"></a></li>
+                <li><a href="https://discord.com/"><img src="./images/icons/Discord New.png" alt="logo discord"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="./images/Topo fundo azul main.png" alt="">
+    <main>
+        <article>
+            <h2>Compatibilidade</h2>
+            <p>Verifique a compatibilidade da última versão do P2Play com o jogo desejado!</p>
+
+            <ul>
+                <li><span id = "caption-jogavel">Jogável</span>: poucos problemas ou nenhum problema.</li>
+                <li><span id = "caption-regular">Regular</span>: alguns problemas que atrapalham a jogatina.</li>
+                <li><span id = "caption-ruim">Ruim</span>: muitos problemas que atrapalham a jogatina</li>
+                <li><span id = "caption-injogavel">Injogável</span>: tantos problemas que não é possível jogar.</li>
+            </ul>
+            <form action="" id = "form-jogos">
+                <input type="text" placeholder="Tekken 5...">
+                
+                <select name="filtro-jogos" id="filtro-jogos">
+                    <option value="A-Z">A-Z</option>
+                    <option value="Z-A">Z-A</option>
+                </select>
+            </form>
+            <table>
+                <caption>*Necessário ressaltar que é possível jogar jogos que não estão na lista, os jogos acima são os que foram testados pelos desenvolvedores do P2Play.*
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Título</th>
+                        <th>Plataformas</th>
+                        <th>Status</th>
+                        <th>Última atualização</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span>us</span> SLUS-20867</td>
+                        <td>Astro Boy</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                                <li><img src="./images/icons/Android OS.png" alt="logo android"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>13/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-21191</td>
+                        <td>Crash Tag Team Racing</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                                <li><img src="./images/icons/Android OS.png" alt="logo android"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-ruim">Ruim</p></td>
+                        <td>13/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-21634</td>
+                        <td>Crazy Frog Arcade Racer</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-injogavel">Injogável</p></td>
+                        <td>1/02/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-20779</td>
+                        <td>Dragon Ball Z - Budokai 2</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>05/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-20591</td>
+                        <td>Dragonball Z Budokai</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>05/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLES-53200</td>
+                        <td>Dragonball Z Budokai Tenkaichi</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                                <li><img src="./images/icons/Apple Logo.png" alt="logo mac"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>05/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-20718</td>
+                        <td>Sonic Heroes</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>13/02/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-21331</td>
+                        <td>Sonic Riders</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                                <li><img src="./images/icons/Apple Logo.png" alt="logo mac"></li>
+                                <li><img src="./images/icons/Android OS.png" alt="logo android"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>13/02/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>eu</span> SLES-53402</td>
+                        <td>Taxi Driver</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>13/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-20328</td>
+                        <td>Tekken 4</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>08/01/2025</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-21059</td>
+                        <td>Tekken 5</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                                <li><img src="./images/icons/Android OS.png" alt="logo android"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-jogavel">Jogável</p></td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td><span>us</span> SLUS-20001</td>
+                        <td>Tekken Tag Tournament</td>
+                        <td>
+                            <ul>
+                                <li><img src="./images/icons/Windows 11.png" alt="logo windows"></li>
+                                <li><img src="./images/icons/Linux.png" alt="logo linux"></li>
+                                <li><img src="./images/icons/Apple Logo.png" alt="logo mac"></li>
+                            </ul>
+                        </td>
+                        <td><p class = "status-regular">Regular</p></td>
+                        <td>01/02/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
+
+    <footer></footer>
 </body>
 </html>
