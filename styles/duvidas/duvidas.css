@@ -1,0 +1,103 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--unique-blue);
+}
+body>img{
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    &>h2{
+        color: white;
+        font-size: 4em;
+        width: 80%;
+        text-align: center;
+    }
+    &>p{
+        color: white;
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+    }
+    form{
+        width: 80%;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+
+        &>input{
+            width: 40%;
+            background-color: var(--light-offwhite);
+            border: none;
+            border-radius: 15px;
+            padding: 16px;
+            font-size: 18px;
+            font-weight: 500;
+            
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
+#duvidas{
+    width: 100%;
+    background-color: var(--light-offwhite);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em 0;
+
+    &>article{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex-wrap: wrap;
+        /* padding-top: 1.5em; */
+
+        &>h3{
+            font-size: 22px;
+            font-weight: 600;
+            color: black;
+            width: 100%;
+        }
+        &>p{
+            font-size: 16px;
+            color: black;
+            width: 100%;
+            text-align: justify;
+        }
+    }
+    &>button{
+        background-color: var(--dark-blue);
+        color: white;
+        border-radius: 15px;
+        padding: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        align-self: flex-end;
+        margin-right: 10%;
+
+        &:hover{
+            opacity: 0.9;
+        }
+        &:active{
+            opacity: 0.7;
+        }
+    }
+}
