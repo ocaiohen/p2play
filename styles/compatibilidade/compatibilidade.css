@@ -151,6 +151,7 @@ tbody>tr{
     width: fit-content;
     padding: 5px 8px;
     color: white;
+    font-weight: 600;
 }
 .status-jogavel, #caption-jogavel{
     background-color: #309F00;

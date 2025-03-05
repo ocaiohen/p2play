@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--unique-blue);
+}
+body>img{
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
