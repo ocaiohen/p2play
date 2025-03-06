@@ -76,6 +76,8 @@ table{
         background-color: var(--light-offwhite);
         padding: 16px;
         border-radius: 15px;
+        font-size: 1em;
+        font-weight: 500;
 
         &:focus{
             outline: none;

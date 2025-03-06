@@ -12,3 +12,119 @@ body>img{
     margin-bottom: -5px;
     margin-top: 30px;
 }
+article{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    >h2{
+        color: white;
+        font-size: 4em;
+        width: 100%;
+        text-align: center;
+    }
+    >p{
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    &>form{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+
+        &>select{
+            width: 25%;
+            background-color: var(--light-offwhite);
+            padding: 16px;
+            border-radius: 15px;
+            font-size: 1em;
+            font-weight: 500;
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
+#posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+
+    &>button{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        padding: 16px 45px 16px 16px;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        align-self: flex-end;
+        position: relative;
+
+        &:hover{
+            opacity: 0.9;
+        }
+        &:active{
+            opacity: 0.7;
+        }
+        &::after {
+            content: "";
+            background-image: url('../../images/icons/Double\ Right\ Black.png'); 
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 16px;
+            top: 52%;
+            transform: translateY(-50%); 
+            width: 20px; 
+            height: 20px;
+
+        }
+    }
+}
+.post{
+    width: 100%;
+    height: auto;
+    background-color: var(--light-offwhite);
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    &>h3{
+        color: var(--unique-blue);
+        font-size: 1.5em;
+    }
+    &>.data-autor{
+        color: #2E393D;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    &>.resumo-post{
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    &>a{
+        color: var(--unique-blue);
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+        width: 100%;
+        text-align: right;
+    }
+}
