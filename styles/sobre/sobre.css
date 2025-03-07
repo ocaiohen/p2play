@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--unique-blue);
+}
+body>img{
+    width: 100%;
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    &>h2{
+        color: white;
+        font-size: 4em;
+        width: 80%;
+        text-align: center;
+    }
+    &>p{
+        color: white;
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+    }
+}
