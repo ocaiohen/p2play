@@ -68,6 +68,9 @@ section{
         &>h3{
             font-size: 22px;
             font-weight: 600;
+            border-left: 5px solid var(--unique-blue);
+            border-radius: 4px;
+            padding-left: 5px;
             color: black;
             width: 100%;
             margin-bottom: 6px;

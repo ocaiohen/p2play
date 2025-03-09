@@ -72,7 +72,10 @@ section{
         &>h3{
             font-size: 22px;
             font-weight: 600;
-            color: black;
+            border-left: 5px solid var(--unique-blue);
+            border-radius: 4px;
+            padding-left: 5px;
+            color: var(--unique-blue);
             width: 100%;
         }
         &>p{

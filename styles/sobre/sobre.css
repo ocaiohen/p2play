@@ -12,11 +12,11 @@ body>img{
     margin-bottom: -5px;
     margin-top: 30px;
 }
-section{
+article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
 
     &>h2{
         color: white;
@@ -31,3 +31,195 @@ section{
         text-align: center;
     }
 }
+#container-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    background-color: var(--light-offwhite);
+    padding: 24px 0;
+
+    &>.article-apenas-texto{
+        width: 80%;
+
+        &>h3{
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--unique-blue);
+            width: 100%;
+            border-left: 5px solid var(--unique-blue);
+            border-radius: 4px;
+            padding-left: 5px;
+        }
+        &>p{
+            font-size: 16px;
+            color: black;
+            width: 100%;
+            text-align: justify;
+        }
+    }
+}
+#oque-somos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    width: 100%;
+    gap: 0 2em;
+    width: 80%;
+
+    grid-template-areas: 
+        "h3 img"
+        "p img"
+    ;
+
+    &>.titulo-e-texto{
+        &>h3{
+            border-left: 5px solid var(--unique-blue);
+            border-radius: 4px;
+            padding-left: 5px;
+            color: var(--unique-blue);
+            grid-area: h3;
+            font-size: 22px;
+            font-weight: 600;
+            width: 100%;
+            margin-bottom: 4px;
+        }
+        &>p{
+            grid-area: p;
+            font-size: 16px;
+            color: black;
+            width: 100%;
+            text-align: justify;
+            height: fit-content;
+        }
+    }
+    &>.imagem-oquesomos{
+        grid-area: img;
+        width: auto;
+        height: 100%;
+        background-image: url("../../images/Imagem\ logo\ e\ fundo.png");
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 15px 15px 0;
+    }
+}
+
+#criadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+
+    &>h3{
+        border-left: 5px solid var(--unique-blue);
+        border-radius: 4px;
+        padding-left: 5px;
+        color: var(--unique-blue);
+        grid-area: h3;
+        font-size: 22px;
+        font-weight: 600;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    &>.card-criador{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        background-color: white;
+        width: 47%;
+        padding: 20px;
+        gap: 0 2em;
+        box-shadow: 0px 4px 4px rgba(30, 93, 219, 0.25);
+        border-radius: 16px;
+
+        grid-template-areas: 
+        "img h4"
+        "img p"
+        "img a"
+        ;
+
+        &>img{
+            grid-area: img;
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 4px rgba(30, 93, 219, 0.25);
+        }
+        &>h4{
+            grid-area: h4;
+            color: var(--unique-blue);
+            font-size: 22px;
+            font-weight: 600;
+            align-self: flex-end;
+        }
+        &>p{
+            grid-area: p;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+            align-self: flex-start;
+        }
+    }
+}
+#equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    &>h3{
+        border-left: 5px solid var(--unique-blue);
+        border-radius: 4px;
+        padding-left: 5px;
+        color: var(--unique-blue);
+        grid-area: h3;
+        font-size: 22px;
+        font-weight: 600;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    &>.card-funcionario{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        padding: 20px;
+        gap: 0 2em;
+        box-shadow: 0px 4px 4px rgba(30, 93, 219, 0.25);
+        border-radius: 16px;
+        margin-bottom: 1em;
+
+        grid-template-areas: 
+        "img h4"
+        "img p"
+        "img a"
+        ;
+
+        &>img{
+            grid-area: img;
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 4px rgba(30, 93, 219, 0.25);
+        }
+        &>h4{
+            grid-area: h4;
+            color: var(--unique-blue);
+            font-size: 22px;
+            font-weight: 600;
+            align-self: flex-end;
+        }
+        &>p{
+            grid-area: p;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+            align-self: flex-start;
+        }
+    }
+}
+
