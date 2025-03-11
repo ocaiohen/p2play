@@ -63,7 +63,7 @@ article{
     width: 100%;
 
     &>button{
-        background-color: white;
+        background-color: var(--light-offwhite);
         color: black;
         border-radius: 15px;
         padding: 16px 45px 16px 16px;
