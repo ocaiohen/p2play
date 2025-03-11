@@ -6,6 +6,7 @@ main{
     width: 100%;
     max-width: 100%;
     background-color: var(--unique-blue);
+    padding-bottom: 2em;
 }
 body>img{
     width: 100%;
