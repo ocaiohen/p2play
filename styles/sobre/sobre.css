@@ -40,6 +40,7 @@ article{
     margin-top: 1.5em;
     width: 100%;
     background-color: var(--light-offwhite);
+    box-shadow: 0px 8px 8px rgba(97, 97, 97, 0.25);
     padding: 24px 0;
 
     &>.article-apenas-texto{
