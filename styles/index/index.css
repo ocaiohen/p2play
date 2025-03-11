@@ -28,7 +28,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 70%;
+    width: 65%;
     height: 100%;
     border-radius: 10px;
     z-index: 0;
@@ -40,7 +40,7 @@
     font-weight: bold;
     padding-left: 20px;
     padding-bottom: 70px;
-    padding-right: 50%;
+    padding-right: 43%;
     background-color: rgba(30, 93, 219, 0.67);
     border-radius: 10px;
     z-index: 1;
@@ -83,12 +83,12 @@
     width: 40%;
 }
 #secao-mockup{
-    height: 730px;
     width: 100%;
-    background-image: url("../../images/Imagem\ mockups.png");
-    background-size: cover;
-    background-position: center;
     margin-bottom: 4em;
+    position: relative;
+}
+#secao-mockup>img{
+    width: 100%;
 }
 #secao-mockup>h2{
     color: white;
@@ -98,6 +98,11 @@
     font-family: 'EmotionEngine', sans-serif;
     font-weight: bold;	
     text-shadow: 0px 2px 0px rgba(30, 93, 219, 1);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 #secao-carrossel{
     width: 100%;
