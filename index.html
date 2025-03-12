@@ -53,7 +53,24 @@
         <section id = "secao-carrossel">
             <h2>Jogue seus jogos preferidos em qualquer lugar!</h2>
 
-            <!-- colocar carrosel aqui-->
+            <div class="carrossel">
+                <div class="container-slides">
+                    <div class="slide">
+                        <img src="./images/gameplay/foto sonic riders.PNG" alt="Jogo 1">
+                        <h3 class="titulo-jogo">Sonic Riders</h3>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/gameplay/foto tekken 5.PNG" alt="Jogo 2">
+                        <h3 class="titulo-jogo">Tekken 5</h3>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/gameplay/tekken 4.PNG" alt="Jogo 3">
+                        <h3 class="titulo-jogo">Tekken 4</h3>
+                    </div>
+                </div>
+                <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+                <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+            </div>
         </section>
     </main>
         
@@ -91,5 +108,7 @@
             </ul>
         </nav>
     </footer>
+
+    <script src = "./scripts/index/main.js"></script>
 </body>
 </html>
