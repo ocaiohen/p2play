@@ -96,6 +96,16 @@ header{
 
             }
         }
+        &>.mobile-menu {
+            display: none;
+            padding: 0 0.5em;
+            font-size: 2em;
+            background: none;
+            text-align: center;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
     }
 }
 footer{
@@ -135,6 +145,7 @@ footer{
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
+        gap: 8px;
         /* padding: 2em 0;  */
         
         &>.links-footer{
@@ -153,6 +164,27 @@ footer{
                     font-size: 14px;
                 }
             }
+        }
+    }
+}
+@media (max-width: 700px){
+    footer{
+        padding: 1em 0;
+    }
+}
+@media (max-width: 570px){
+    header{
+        nav{
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    footer{
+        &>h2{
+            display: none;
+        }
+        &>nav{
+            flex-wrap: wrap;
         }
     }
 }
