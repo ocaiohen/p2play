@@ -141,7 +141,7 @@ article{
         grid-template-areas: 
         "img h4"
         "img p"
-        "img a"
+        "img ul"
         ;
 
         &>img{
@@ -164,6 +164,22 @@ article{
             font-size: 16px;
             font-weight: 500;
             align-self: flex-start;
+        }
+        &>ul{
+            grid-area: ul;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            list-style: none;
+            align-self: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+
+            &>li>a{
+                font-size: 16px;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
         }
     }
 }
@@ -199,7 +215,7 @@ article{
         grid-template-areas: 
         "img h4"
         "img p"
-        "img a"
+        "img ul"
         ;
 
         &>img{
@@ -223,8 +239,64 @@ article{
             font-weight: 500;
             align-self: flex-start;
         }
+        &>ul{
+            grid-area: ul;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: none;
+            align-self: flex-start;
+            gap: 12px;
+            flex-wrap: wrap;
+
+            &>li>a{
+                font-size: 16px;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
     }
 }
- .titulo-e-texto>p, .article-apenas-texto>p{
+.titulo-e-texto>p, .article-apenas-texto>p{
     line-height: 1.4;
- }
+}
+.card-github{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &>img{
+        height: 24px;
+    }
+    &:hover{
+        opacity: 0.9;
+    }
+    &:active{
+        opacity: 0.7;
+    }
+}
+.card-linkedin{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #0077b5;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &>img{
+        height: 24px;
+        border: 2px solid white;
+        border-radius: 3px;
+    }
+    &:hover{
+        opacity: 0.9;
+    }
+    &:active{
+        opacity: 0.7;
+    }
+}
