@@ -85,6 +85,7 @@ section{
             color: black;
             width: 100%;
             text-align: justify;
+            line-height: 1.5;
         }
     }
     &>button{

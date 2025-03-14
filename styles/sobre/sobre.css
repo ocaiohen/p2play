@@ -225,4 +225,6 @@ article{
         }
     }
 }
-
+ .titulo-e-texto>p, .article-apenas-texto>p{
+    line-height: 1.4;
+ }
